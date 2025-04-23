@@ -101,11 +101,3 @@ If you use this tool in your research, please cite:
 MIT License. See [`LICENSE`](LICENSE) file for details.
 
 ---
-
-## ✉️ Contact
-
-We’d love to hear from you! Reach us at:
-
-- **Pasindu Udawatta** – [puda360@aucklanduni.ac.nz](mailto:puda360@aucklanduni.ac.nz)
-
----
