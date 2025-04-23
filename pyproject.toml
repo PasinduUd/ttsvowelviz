@@ -1,0 +1,35 @@
+[build-system]
+requires = ["setuptools>=51.1.0,<=68.0.0", "wheel>=0.37.0,<=0.42.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "ttsvowelviz"
+version = "0.1.0"
+description = "A tool for visualizing static and dynamic vowel spaces during text-to-speech model training"
+readme = "README.md"
+authors = [{name = "Pasindu Udawatta", email = "pasindu.ud@gmail.com"}]
+license = {file = "LICENSE"}
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Intended Audience :: Information Technology",
+    "Intended Audience :: Science/Research",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3 :: Only",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Scientific/Engineering :: Artificial Intelligence",
+    "Topic :: Scientific/Engineering :: Visualization"
+]
+requires-python = ">=3.7.0,<3.11.0"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
