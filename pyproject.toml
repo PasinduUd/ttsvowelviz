@@ -1,14 +1,15 @@
 [build-system]
-requires = ["setuptools>=51.1.0,<=68.0.0", "wheel>=0.37.0,<=0.42.0"]
+requires = [
+    "setuptools>=43.0.0; python_version >= '3.7.0' and python_version < '3.13.0'",
+    "wheel>=0.34.0; python_version >= '3.7.0' and python_version < '3.13.0'"
+]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "ttsvowelviz"
 version = "0.1.0"
 description = "A tool for visualizing static and dynamic vowel spaces during text-to-speech model training"
-readme = "README.md"
-authors = [{name = "Pasindu Udawatta", email = "pasindu.ud@gmail.com"}]
-license = {file = "LICENSE"}
+authors = [{ name = "Pasindu Udawatta", email = "pasindu.ud@gmail.com" }]
 classifiers = [
     "Development Status :: 5 - Production/Stable",
     "Intended Audience :: Developers",
@@ -22,14 +23,32 @@ classifiers = [
     "Programming Language :: Python :: 3.8",
     "Programming Language :: Python :: 3.9",
     "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
     "Topic :: Scientific/Engineering",
     "Topic :: Scientific/Engineering :: Artificial Intelligence",
     "Topic :: Scientific/Engineering :: Visualization"
 ]
-requires-python = ">=3.7.0,<3.11.0"
+requires-python = ">=3.7.0,<3.13.0"
+dependencies = [
+    "numpy>=1.19.0; python_version >= '3.7.0' and python_version < '3.13.0'",
+    "pandas>=1.0.0; python_version >= '3.7.0' and python_version < '3.13.0'",
+    "plotly>=4.5.0; python_version >= '3.7.0' and python_version < '3.13.0'",
+    "praat-parselmouth>=0.4.0; python_version >= '3.7.0' and python_version < '3.13.0'",
+    "scipy>=1.5.0; python_version >= '3.7.0' and python_version < '3.13.0'",
+    "tgt==1.5; python_version >= '3.7.0' and python_version < '3.13.0'"
+]
+license = "MIT"
+license-files = ["LICENSE"]
+readme = "README.md"
+keywords = ["text-to-speech", "speech synthesis", "model training", "vowel space", "visualization", "linguistics"]
+
+[project.urls]
+Repository = "https://github.com/pasindu-ud/ttsvowelviz.git"
+"Bug Tracker" = "https://github.com/pasindu-ud/ttsvowelviz/issues"
 
 [tool.setuptools]
-package-dir = {"" = "src"}
+package-dir = { "" = "src" }
 
 [tool.setuptools.packages.find]
 where = ["src"]
