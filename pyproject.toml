@@ -1,13 +1,13 @@
 [build-system]
 requires = [
-    "setuptools>=43.0.0; python_version >= '3.7.0' and python_version < '3.13.0'",
-    "wheel>=0.34.0; python_version >= '3.7.0' and python_version < '3.13.0'"
+    "setuptools>=43.0.0",
+    "wheel>=0.34.0"
 ]
 build-backend = "setuptools.build_meta"
 
 [project]
 name = "ttsvowelviz"
-version = "0.1.0"
+version = "0.1.0.post1"
 description = "A tool for visualizing static and dynamic vowel spaces during text-to-speech model training"
 authors = [{ name = "Pasindu Udawatta", email = "pasindu.ud@gmail.com" }]
 classifiers = [
@@ -31,16 +31,15 @@ classifiers = [
 ]
 requires-python = ">=3.7.0,<3.13.0"
 dependencies = [
-    "numpy>=1.19.0; python_version >= '3.7.0' and python_version < '3.13.0'",
-    "pandas>=1.0.0; python_version >= '3.7.0' and python_version < '3.13.0'",
-    "plotly>=4.5.0; python_version >= '3.7.0' and python_version < '3.13.0'",
-    "praat-parselmouth>=0.4.0; python_version >= '3.7.0' and python_version < '3.13.0'",
-    "scipy>=1.5.0; python_version >= '3.7.0' and python_version < '3.13.0'",
-    "tgt==1.5; python_version >= '3.7.0' and python_version < '3.13.0'"
+    "numpy>=1.19.0",
+    "pandas>=1.0.0",
+    "plotly>=4.5.0",
+    "praat-parselmouth>=0.4.0",
+    "scipy>=1.5.0",
+    "tgt==1.5"
 ]
-license = { file = "LICENSE" }
 readme = "README.md"
-keywords = ["text-to-speech", "speech synthesis", "model training", "vowel space", "visualization", "linguistics"]
+keywords = ["text-to-speech", "vowel space", "visualization", "evaluation", "linguistics"]
 
 [project.urls]
 Repository = "https://github.com/pasindu-ud/ttsvowelviz.git"
