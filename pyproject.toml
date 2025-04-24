@@ -39,7 +39,7 @@ dependencies = [
     "tgt==1.5"
 ]
 readme = "README.md"
-license = "Copyright (c) 2025 Pasindu Udawatta"
+license = { text = "Copyright (c) 2025 Pasindu Udawatta" }
 keywords = ["text-to-speech", "vowel space", "visualization", "evaluation", "linguistics"]
 
 [project.urls]
