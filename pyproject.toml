@@ -7,7 +7,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "ttsvowelviz"
-version = "0.1.0.post2"
+version = "0.1.0"
 description = "A tool for visualizing static and dynamic vowel spaces during text-to-speech model training"
 authors = [{ name = "Pasindu Udawatta", email = "pasindu.ud@gmail.com" }]
 classifiers = [
@@ -43,8 +43,7 @@ license = { text = "Copyright (c) 2025 Pasindu Udawatta" }
 keywords = ["text-to-speech", "vowel space", "visualization", "evaluation", "linguistics"]
 
 [project.urls]
-Repository = "https://github.com/pasindu-ud/ttsvowelviz.git"
-Release = "https://github.com/pasindu-ud/ttsvowelviz/tree/testpypi-v0.1.0.post2"
+Repository = "https://github.com/pasindu-ud/ttsvowelviz/tree/pypi-v0.1.0"
 "Bug Tracker" = "https://github.com/pasindu-ud/ttsvowelviz/issues"
 
 [tool.setuptools]
