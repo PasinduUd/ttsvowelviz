@@ -98,6 +98,6 @@ If you use this tool in your research, please cite:
 
 ## 📄 License
 
-MIT License. See [`LICENSE`](LICENSE) file for details.
+MIT License. See [`LICENSE`](https://github.com/pasindu-ud/ttsvowelviz/blob/main/LICENSE) file for details.
 
 ---
